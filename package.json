@@ -1,0 +1,40 @@
+{
+  "name": "wms-circ-app",
+  "version": "1.0.0",
+  "description": "WMS Circulation Staff App",
+  "repository": {
+    "type": "git",
+    "url": "https://git.ent.oclc.org/projects/MOBILE/repos/wms-circ-app/wms-circ-app.git"
+  },
+  "author": "Mobile Team",
+  "license": "UNLICENSED",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "bugs": {
+    "url": "https://git.ent.oclc.org/projects/MOBILE/repos/wms-circ-app/issues"
+  },
+  "homepage": "http://www.oclc.org",
+
+  "scripts": {
+    "build": "phonegap build",
+    "test": "./node_modules/karma/bin/karma start karma.conf",
+    "install": "./build/copy_resources.js"
+  },
+
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2",
+    "karma-coverage": "^1.1.1",
+    "karma-spec-reporter":"^0.0.26"
+  }
+}
+
